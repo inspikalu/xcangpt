@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-geist-mono);
+  --font-serif: var(--font-montaga);
+}
+
+body {
+  background: white;
+  color: black;
+  font-family: var(--font-inter), sans-serif;
+}
+
+.font-montaga {
+  font-family: var(--font-montaga);
+}
