@@ -22,3 +22,12 @@ body {
 .font-montaga {
   font-family: var(--font-montaga);
 }
+
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
