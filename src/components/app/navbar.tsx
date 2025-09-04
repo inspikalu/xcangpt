@@ -1,5 +1,4 @@
-
-import Image from "next/image";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -8,9 +7,12 @@ const Navbar = () => {
         <span className="font-extrabold">X</span>can <span>GPT</span>
       </span>
       <div className="ml-auto flex items-center justify-center gap-1 sm:gap-1.5">
-        <button className="bg-white text-[#034016] text-[10px] sm:text-[11px] md:text-[12px] w-[120px] sm:w-[140px] md:w-[167px] flex items-center justify-center h-[30px] sm:h-[35px] md:h-[40px] rounded-[8px]">
+        <Link
+          href={"/contact"}
+          className="bg-white text-[#034016] text-[10px] sm:text-[11px] md:text-[12px] w-[120px] sm:w-[140px] md:w-[167px] flex items-center justify-center h-[30px] sm:h-[35px] md:h-[40px] rounded-[8px]"
+        >
           Book a free demo
-        </button>
+        </Link>
         <a
           href="#"
           className="bg-[#011D0A] text-white text-[10px] sm:text-[11px] md:text-[12px] w-[80px] sm:w-[85px] md:w-[95px] flex items-center justify-center h-[30px] sm:h-[35px] md:h-[40px] rounded-[8px]"

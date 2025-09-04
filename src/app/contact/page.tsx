@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Navbar from "@/components/app/navbar";
 import { FooterMain } from "@/components/app/footer";
 import Image from "next/image";
@@ -47,7 +48,10 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              <button className="bg-[#034016] py-2 px-6 sm:px-8 text-xs sm:text-[.75rem] min-h-[40px] sm:min-h-[50px] rounded-[8px] text-[#FFF0F0] flex items-center justify-center">
+              <Link
+                href={"mailto:hello@xcangpt.com"}
+                className="w-1/2 bg-[#034016] py-2 px-6 sm:px-8 text-xs sm:text-[.75rem] min-h-[40px] sm:min-h-[50px] rounded-[8px] text-[#FFF0F0] flex items-center justify-center"
+              >
                 Send Mail
                 <svg
                   className="w-4 h-4 ml-2"
@@ -62,7 +66,7 @@ export default function ContactPage() {
                     d="M17 8l4 4m0 0l-4 4m4-4H3"
                   />
                 </svg>
-              </button>
+              </Link>
             </div>
           </section>
           <section className="self-center flex items-center justify-center">
