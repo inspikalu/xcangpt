@@ -9,7 +9,7 @@ export const FooterMain = () => {
 };
 export default function Footer() {
   return (
-    <div className="relative">
+    <div className="relative overflow-hidden">
       <section className="bg-[#011D0A] w-full h-auto px-4 sm:px-10 md:px-16 lg:px-32 py-6 sm:py-10 md:py-16 lg:py-39.5 relative">
         <Leaf
           className="top-0 left-1/2 transform -translate-x-1/2 w-1/3 sm:w-1/4 md:w-1/5"
